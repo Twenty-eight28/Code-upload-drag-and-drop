@@ -1,0 +1,290 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E57373;
+    text-align: center;
+    font-style: italic;
+    font-size: 1em;
+    display: flex;  
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: #1A237E;
+    line-height: 1.6;
+}
+
+.LadyShe Boutique {
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    transform: translateY(-50%);
+    font-size: medium;
+    font-weight: bold;
+    color: #1A237E;
+    z-index: 100;
+    text-align: left;
+    margin: auto;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    background: #f7c935;
+    padding: 10px 0;
+    width: 100vw;
+    border-bottom: 4px solid;
+    margin: 0;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.navbar-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.LadyShe Boutique {
+    font-size: 24px;
+    font-weight: bold;
+    color: #6a1b9a;
+    text-align: left;
+}
+
+nav .menu {
+list-style: none;
+display: flex;
+margin: 0;
+padding: 0;
+text-align: right;
+}
+
+nav .menu > li {
+    position: relative;
+    margin: 0 15px;
+    text-align: right;
+}
+
+nav .menu a {
+    text-decoration: none;
+    color: #6a1b9a;
+    font-weight: bold;
+    text-align: right;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+top: 100%;
+left: 0;
+background: #fff;
+box-shadow: 0 4px 8px rgba(0,0,0,0,2);
+min-width: 160px;
+z-index: 999;
+text-align: right;
+}
+
+.dropdown-content a {
+display: block;
+padding: 8px;
+color: #1A237E;
+font-size: 14px;
+text-align: right;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    text-align: right;
+}
+
+.dropdown:hover .dropbtn {
+    background: #f1f1f1;
+    text-align: right;
+}
+
+header{
+  background-color: #E57373; 
+  color: #8E24AA; 
+  padding: 1em;
+  text-align: center;
+  width: 100%;
+  max-width: 1200px;
+   
+}
+header nav ul {
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: space-between;
+text-align: center;
+font-style: italic;
+font-size: medium;
+position: relative;
+}
+
+hearder nav ul li {
+    margin: 20px;
+    text-align: center;
+    font-style: italic;
+    font-size: medium;
+}
+header nav a {
+    color: #1A237E;
+    text-decoration: none;
+    text-align: left;
+    font-size: medium;
+    font-style: italic;
+    position: relative;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2em;
+    width: 100%;
+    margin: 0;
+    padding-left: 0;
+    font-size: medium;
+    font-style: italic;
+}
+    .main-container {
+        margin: 0 auto;
+        text-align: center;
+        max-width: 1200px;
+        min-height: 100vh;
+        justify-content: center;
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        font-size: medium;
+        font-style: italic;
+    }
+
+    .form-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
+    .name-input, .email-input {
+        grid-column: span 1;
+    }
+
+.about-us, .get-in-touch {
+    text-align: center;
+    width: 100%;
+    min-height: 100vh;
+    margin-left: 0;
+    padding: 20px;
+    font-style:italic;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    overflow: visible;
+    height: auto;
+    font-size:3em;
+}
+
+.get-in-touch p {
+font-size: 1.1em;
+line-height: 1.5;
+margin-bottom: 10px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid;
+    border-radius: 5px;
+    text-align: center;
+}
+.contact-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.centered-box {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh ;
+    flex-direction: column;
+    text-align: center;
+
+}
+.page wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+section {
+    background-color: rgba(0,0,0,0);
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h1, h2 {
+    color: #6a1b9a;
+    text-align: center;
+    font-style: italic;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 0.5em;
+}
+    @media (max-width: 768px) {
+        .main-container{
+            margin: 0 auto;
+            text-align: center;
+            width: 80;
+            padding: 20px;
+        }    
+    }
+
+button {
+    background-color: #8E24AA;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #f7c935;
+    color: 3C5759;
+    padding: 1em;
+    text-align: center;
+    clear: both;
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: medium;
+    font-style: italic;
+}
